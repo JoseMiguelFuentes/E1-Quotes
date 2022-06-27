@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family:'Comic Sans MS', 'monospace',
+    sans-serif;
+  box-sizing: border-box;
+ 
+}
+
+.App {
+  text-align: center;
+  width: 99vw;
+  height: 99vh;
+  position: fixed;
+}
+
+.card{
+  width: 390px;
+  height: 226px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc((100vh - 322px) / 2);
+  box-shadow: 0px 0px 40px -9px rgb(0, 0, 0) inset;
+  border-radius: 10%;
+  padding: 5%;
+  background-color: white;
+  position: relative;
+}
+
+.quote__text{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+.author{
+  position: absolute;
+  bottom: 50px;
+  font-family: monospace cursive;
+  font-size: 25px;
+}
+.next{
+  background: rgb(255 255 255);
+  height: 41px;
+  width: 41px;
+  border-radius: 25%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 44px;
+  right: 60px;
+  box-shadow: 0px 0px 16px -12px rgb(0 0 0) inset;
+  font-size: 31px;
+  padding: 3px -1px;
+  text-align: center;
+}
+/* .bxs-skip-next-circle{
+  
+} */
+
